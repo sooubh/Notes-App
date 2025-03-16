@@ -16,4 +16,4 @@ add_button.addEventListener("click", () => {
    if (e.target.tagName === "IMG") {
        e.target.parentElement.remove();
    }
-})
+});
